@@ -22,7 +22,8 @@ login.login_message_category = 'info'
 
 from app.routes import *
 
-
+def getApp():
+    return app
 
 
 
